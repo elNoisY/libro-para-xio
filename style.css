@@ -19,7 +19,7 @@ body {
     margin: auto;
 }
 
-#flipbok .page {
+.page {
     width: 400px;
     height: 500px;
     background: #fff;
