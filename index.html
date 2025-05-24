@@ -5,7 +5,14 @@
     <title>Nuestro Libro 💗</title>
     <link rel="stylesheet" href="style.css">
     <link src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/turn.js@4/turn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/blasten/turn.js@4/turn.min.js"></script>
+    <script>
+        $("#flipbook").turn({
+            width: 800,
+            height: 500,
+            autoCenter: true
+        });
+    </script>
 </head>
 <body>
     <div class="container">
